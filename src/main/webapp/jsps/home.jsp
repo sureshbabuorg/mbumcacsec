@@ -1,5 +1,3 @@
-
-
 <center><h1>MOHAN BABU UNIVERSITY</h1>
 <h3>Sree Sainath Nagar, Tirupathi - 517102</h3>
 <body  bgcolor="lightblue">  
