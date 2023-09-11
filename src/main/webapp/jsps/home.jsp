@@ -1,64 +1,85 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-<head>
-
-<meta http-equiv="Content-Type" content="text/html; 
-	charset=UTF-8">
-
-<title>MithunTechnologies- Home Page</title>
-
-<link href="images/mithunlogo.jpg" rel="icon">
-
-</head>
-
-</head>
-
-<body>
-
-<h1 align="center">Welcome to Mithun Technologies.</h1>
-
-<h1 align="center">Very Good Training center for DevOps with AWS in Maratha Halli and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
-
-<hr>
-<div style="text-align: center;">
-	
-<span>
-		
-<img src="images/mithunlogo.jpg" alt="" width="100">
-	
-</span>
-	
-<span style="font-weight: bold;">
-	
-	Mithun Technologies, 
-		
-	Martha Halli, Above ICICI Bank, Beside Meghana Foods,
-	
-	Bangalore.
-		
-	+91-9980923226,
-		
-	<br>
-		
-<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
-
-	</span>
+<center><h1>MOHAN BABU UNIVERSITY</h1>
+<h3>Sree Sainath Nagar, Tirupathi - 517102</h3>
+<body  bgcolor="lightblue">  
+<img src="https://upload.wikimedia.org/wikipedia/en/4/4b/Mohan_Babu_University_Logo%2C_Tirupati%2C_Andhra_Pradesh%2C_India.png" height="180" width="300"> 
+<h2>USER REGISTRATION FORM</h2>  
+<form 
+name="registration" 
+class="registartion-form" 
+onsubmit="return formValidation()">
+    <table>
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input 
+type="text" 
+name="name" 
+id="name" 
+placeholder="your name">
+</td>
+      </tr>
+ <tr>
+        <td><label for="RollNumber">Roll Number:</label></td>
+        <td><input type="number" name="RollNumber" id="RollNumber"></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="text" name="email" id="email" placeholder="your email"></td>
+      </tr>
+      <tr>
+        <td><label for="phoneNumber">Phone Number:</label></td>
+        <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
+      </tr>
+      <tr>
+        <td><label for="gender">Gender:</label></td>
+        <td>Male: <input type="radio" name="gender" value="male">
+          Female: <input type="radio" name="gender" value="female">
+          Other: <input type="radio" name="gender" value="other"></td>
+      </tr>
+ <tr>
+        <td><label for="Branches">Branches</label></td>
+        <td>
+          <select name="Branches" id="Branches">
+            <option value="">Select Branches</option>
+            <option value="Bca">Bca</option>
+            <option value="Mca">Mca</option>
+          </select>
+        </td>
+      </tr>
+ <tr>
+        <td><label for="Academic Year">Academic Year:</label></td>
+        <td><input type="string" name="Academic Year" id="Academic Year"></td>
+      </tr>
+      <tr>
+        <td><label for="Eventname">Eventname</label></td>
+        <td>
+          <select name="Eventname" id="Eventname">
+            <option value="">Select Eventname</option>
+            <option value="Paper Presentation">Paper Presentation</option>
+            <option value="Poster">Poster</option>
+            <option value="Techniqual Quiz">Techniqual Quiz</option>
+            <option value="Cultural Event">Cultural Event</option>
+            <option value="Sports">Sports</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="Other Info">Other Info:</label></td>
+        <td><textarea name="about" id="about" placeholder="Write any otherinfo...">
+</textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+<input type="Submit" class="Submit" value="Submit" /></td>
+		<center><td>
+<input type="button" value="reset"/></td>
+		<td>
+<input type="button" value="cancel"/></td></center>
+      </tr>
+    </table>
+  </form>
 </div>
-<hr>
-	
-<p> Service : 
-<a href="services/employee/getEmployeeDetails">Get Employee Details </p>
-
-<hr>
-<hr>
-<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-
-<p align=center><small>Copyrights 2019 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> 
-</small></p>
-
+</center>
 </body>
-</html>
