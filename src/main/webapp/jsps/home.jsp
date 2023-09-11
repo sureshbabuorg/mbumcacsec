@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+
 
 <center><h1>MOHAN BABU UNIVERSITY</h1>
 <h3>Sree Sainath Nagar, Tirupathi - 517102</h3>
